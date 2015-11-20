@@ -27,20 +27,8 @@ get_header(); ?>
 ?>
 
 	<div id="primary" class="content-area">
-
 		<div id="content" class="site-content" role="main">
-		<div class="playground"> 
-			<em><?php echo 'List of things'; ?></em>
-			<?php $x = 1; ?>
-			<?php if ($x != 8) : ?>	
-			<ul>
-				<?php while($x != 8) : ?>
-					<li> Item <?php echo $x; ?> </li>
-					<?php $x++; ?>
-				<?php endwhile; ?>
-			</ul>
-			<?php endif; ?>
-		</div>
+
 		<?php
 			if ( have_posts() ) :
 				// Start the Loop.

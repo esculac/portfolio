@@ -6,8 +6,8 @@ Template Name: Home Page
 get_header(); ?>
 
 
-<div id="main-content" class="main-content">	
-<div id="main-background" class="main-background">
+<div id="main-content-home" class="main-content">	
+
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content fadeIn animated" role="main">
 			<div class="welcomeLetter"> 
@@ -16,7 +16,6 @@ get_header(); ?>
 			</div><!-- welcome letter -->
 		</div><!-- #content -->
 	</div><!-- #primary -->
-</div><!-- #main-background -->
 </div>
 
 <?php

@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-<div id="main-content" class="main-content">
+<div id="main-content" class="main-content fadeIn animated">
 
 <?php
 	if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
