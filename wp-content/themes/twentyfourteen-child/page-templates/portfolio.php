@@ -5,7 +5,6 @@ Template Name: Portfolio Page
 
 get_header(); ?>
 
-
 <div id="portfolio-main-content" class="main-content">	
 	<div id="content" class="site-content fadeIn animated" role="main">
 

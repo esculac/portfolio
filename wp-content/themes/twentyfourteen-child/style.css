@@ -4339,6 +4339,8 @@ a.post-thumbnail:hover {
 	text-align: center;
 }
 
+/*======================================Sidebar===========================================*/
+
 .sidebar-link {
 	text-align: right;
 	position: relative;
@@ -4349,7 +4351,14 @@ a.post-thumbnail:hover {
 	padding: 1em;
 }
 
-
+/*Custom CSS fro when the screen is too small (aka for phones and such)*/
+@media screen and (max-width: 1000px) {
+	.sidebar-link {
+		width: 90%;
+		left: auto;
+		right: auto;
+	}
+}
 /*=====================================Home Page=========================================*/
 
 /* Welcome letter for the home page*/
@@ -4379,7 +4388,7 @@ a.post-thumbnail:hover {
 	background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ),url(" images/Mt-Hood.jpg");
+    ),url("images/Mt-Hood.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: -70% 50%;
@@ -4388,6 +4397,10 @@ a.post-thumbnail:hover {
 
 
 @media screen and (max-width: 1000px) {
+
+	.welcomeLetter {
+		top: 150px;
+	}
 
 	.welcomeLetter #title {
 		font-size: 80px;
@@ -4433,6 +4446,17 @@ a.post-thumbnail:hover {
     background-position: top-left;
     background-size: 100% 100%;
 }
+
+@media screen and (max-width: 1000px) {
+	.portfolio-box {
+		width: 150px;
+		height: 150px;
+	}
+	.portfolio-box-title {
+		margin-top: 70px;
+	}
+}
+
 /*=======================================Contact Me Page=======================================*/
 
 #mailing-form {
@@ -4470,6 +4494,18 @@ a.post-thumbnail:hover {
 	right: 10px;
 	padding-top:11px;
 	color: gray;
+}
+@media screen and (max-width: 1000px) {
+	#contact-info {
+		padding-top: 17px;
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 600px) {
+	#contact-info {
+		padding-top: 20px;
+		font-size: 8px;
+	}
 }
 /*==============================Hover.css===================================*/
 
